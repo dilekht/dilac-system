@@ -32,7 +32,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/dilac-system.git
+git clone https://github.com/dielkht/dilac-system.git
 cd dilac-system
 
 # Create virtual environment
@@ -167,7 +167,7 @@ If you use DiLAC in your research, please cite:
 ```bibtex
 @article{dilac2024,
   title={DiLAC: A New Arabic Lexical Resource for Semantic Processing},
-  author={Your Name},
+  author={tahar.dilekh@univ-batna2.dz},
   journal={Journal Name},
   year={2024}
 }
