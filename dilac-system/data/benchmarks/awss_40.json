@@ -1,0 +1,76 @@
+{
+  "name": "AWSS Arabic Word Semantic Similarity Benchmark",
+  "description": "Human similarity judgments for 40 Arabic word pairs from Table 6.2",
+  "source": "Fazza et al. (2012), Mohammed & Deri (2017)",
+  "scale": "0.0 to 1.0 (normalized from 0-4)",
+  "categories": {
+    "low": "similarity < 0.33",
+    "medium": "0.33 <= similarity < 0.66", 
+    "high": "similarity >= 0.66"
+  },
+  "pairs": [
+    {"id": 1, "word1_en": "Coast", "word2_en": "Endorsement", "word1": "ساحل", "word2": "تصديق", "human_score": 0.01, "category": "low"},
+    {"id": 2, "word1_en": "Noon", "word2_en": "String", "word1": "ظهر", "word2": "خيط", "human_score": 0.01, "category": "low"},
+    {"id": 3, "word1_en": "Stove", "word2_en": "Walk", "word1": "موقد", "word2": "مشي", "human_score": 0.02, "category": "low"},
+    {"id": 4, "word1_en": "Cord", "word2_en": "Midday", "word1": "حبل", "word2": "ظهيرة", "human_score": 0.02, "category": "low"},
+    {"id": 5, "word1_en": "Signature", "word2_en": "String", "word1": "توقيع", "word2": "خيط", "human_score": 0.02, "category": "low"},
+    {"id": 6, "word1_en": "Boy", "word2_en": "Endorsement", "word1": "صبي", "word2": "تصديق", "human_score": 0.03, "category": "low"},
+    {"id": 7, "word1_en": "Boy", "word2_en": "Midday", "word1": "صبي", "word2": "ظهيرة", "human_score": 0.04, "category": "low"},
+    {"id": 8, "word1_en": "Smile", "word2_en": "Village", "word1": "ابتسامة", "word2": "قرية", "human_score": 0.05, "category": "low"},
+    {"id": 9, "word1_en": "Noon", "word2_en": "Fasting", "word1": "ظهر", "word2": "صيام", "human_score": 0.07, "category": "low"},
+    {"id": 10, "word1_en": "Glass", "word2_en": "Diamond", "word1": "كأس", "word2": "الماس", "human_score": 0.09, "category": "low"},
+    {"id": 11, "word1_en": "Sepulcher", "word2_en": "Sheikh", "word1": "ضريح", "word2": "شيخ", "human_score": 0.22, "category": "low"},
+    {"id": 12, "word1_en": "Countryside", "word2_en": "Vegetable", "word1": "ريف", "word2": "خضار", "human_score": 0.31, "category": "low"},
+    {"id": 13, "word1_en": "Tumbler", "word2_en": "Tool", "word1": "قدح", "word2": "أداة", "human_score": 0.33, "category": "medium"},
+    {"id": 14, "word1_en": "Laugh", "word2_en": "Feast", "word1": "ضحك", "word2": "عيد", "human_score": 0.34, "category": "medium"},
+    {"id": 15, "word1_en": "Girl", "word2_en": "Odalisque", "word1": "فتاة", "word2": "جارية", "human_score": 0.49, "category": "medium"},
+    {"id": 16, "word1_en": "Feast", "word2_en": "Fasting", "word1": "عيد", "word2": "صيام", "human_score": 0.49, "category": "medium"},
+    {"id": 17, "word1_en": "Coach", "word2_en": "Means", "word1": "حافلة", "word2": "وسيلة", "human_score": 0.52, "category": "medium"},
+    {"id": 18, "word1_en": "Sage", "word2_en": "Sheikh", "word1": "حكيم", "word2": "شيخ", "human_score": 0.57, "category": "medium"},
+    {"id": 19, "word1_en": "Girl", "word2_en": "Sister", "word1": "فتاة", "word2": "اخت", "human_score": 0.60, "category": "medium"},
+    {"id": 20, "word1_en": "Hen", "word2_en": "Pigeon", "word1": "دجاجة", "word2": "حمامة", "human_score": 0.65, "category": "medium"},
+    {"id": 21, "word1_en": "Hill", "word2_en": "Mountain", "word1": "تل", "word2": "جبل", "human_score": 0.65, "category": "medium"},
+    {"id": 22, "word1_en": "Master", "word2_en": "Sheikh", "word1": "سيد", "word2": "شيخ", "human_score": 0.67, "category": "high"},
+    {"id": 23, "word1_en": "Food", "word2_en": "Vegetable", "word1": "طعام", "word2": "خضار", "human_score": 0.69, "category": "high"},
+    {"id": 24, "word1_en": "Slave", "word2_en": "Odalisque", "word1": "عبد", "word2": "جارية", "human_score": 0.71, "category": "high"},
+    {"id": 25, "word1_en": "Run", "word2_en": "Walk", "word1": "جري", "word2": "مشي", "human_score": 0.75, "category": "high"},
+    {"id": 26, "word1_en": "Cord", "word2_en": "String", "word1": "حبل", "word2": "خيط", "human_score": 0.77, "category": "high"},
+    {"id": 27, "word1_en": "Forest", "word2_en": "Woodland", "word1": "غابة", "word2": "أحراش", "human_score": 0.79, "category": "high"},
+    {"id": 28, "word1_en": "Sage", "word2_en": "Thinker", "word1": "حكيم", "word2": "مفكر", "human_score": 0.83, "category": "high"},
+    {"id": 29, "word1_en": "Journey", "word2_en": "Travel", "word1": "رحلة", "word2": "سفر", "human_score": 0.85, "category": "high"},
+    {"id": 30, "word1_en": "Gem", "word2_en": "Diamond", "word1": "جوهرة", "word2": "الماس", "human_score": 0.85, "category": "high"},
+    {"id": 31, "word1_en": "Countryside", "word2_en": "Village", "word1": "ريف", "word2": "قرية", "human_score": 0.85, "category": "high"},
+    {"id": 32, "word1_en": "Cushion", "word2_en": "Pillow", "word1": "مسند", "word2": "مخدة", "human_score": 0.85, "category": "high"},
+    {"id": 33, "word1_en": "Smile", "word2_en": "Laugh", "word1": "ابتسامة", "word2": "ضحك", "human_score": 0.87, "category": "high"},
+    {"id": 34, "word1_en": "Signature", "word2_en": "Endorsement", "word1": "توقيع", "word2": "تصديق", "human_score": 0.90, "category": "high"},
+    {"id": 35, "word1_en": "Tool", "word2_en": "Means", "word1": "أداة", "word2": "وسيلة", "human_score": 0.92, "category": "high"},
+    {"id": 36, "word1_en": "Sepulcher", "word2_en": "Grave", "word1": "ضريح", "word2": "قبر", "human_score": 0.94, "category": "high"},
+    {"id": 37, "word1_en": "Boy", "word2_en": "Lad", "word1": "صبي", "word2": "فتى", "human_score": 0.93, "category": "high"},
+    {"id": 38, "word1_en": "Wizard", "word2_en": "Magician", "word1": "ساحر", "word2": "مشعوذ", "human_score": 0.94, "category": "high"},
+    {"id": 39, "word1_en": "Coach", "word2_en": "Bus", "word1": "حافلة", "word2": "باص", "human_score": 0.95, "category": "high"},
+    {"id": 40, "word1_en": "Glass", "word2_en": "Tumbler", "word1": "كأس", "word2": "قدح", "human_score": 0.95, "category": "high"}
+  ],
+  "reference_results": {
+    "Wup_AWN": {
+      "mse": 0.016540541,
+      "correlation": 0.941168501,
+      "mse_low": 0.002754545,
+      "mse_medium": 0.028141667,
+      "mse_high": 0.017428571
+    },
+    "AWSS": {
+      "mse": 0.026978378,
+      "correlation": 0.889771136,
+      "mse_low": 0.007563636,
+      "mse_medium": 0.045258333,
+      "mse_high": 0.026564286
+    },
+    "Lesk_ar_DiLAC": {
+      "mse": 0.020308627,
+      "correlation": 0.916607931,
+      "mse_low": 0.008284841,
+      "mse_medium": 0.023911111,
+      "mse_high": 0.026805504
+    }
+  }
+}
