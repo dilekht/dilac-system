@@ -32,7 +32,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/dielkht/dilac-system.git
+git clone https://github.com/dilekht/dilac-system.git
 cd dilac-system
 
 # Create virtual environment
